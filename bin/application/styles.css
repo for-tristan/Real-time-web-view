@@ -1,0 +1,65 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Button Styles */
+.button {
+    -fx-padding: 8 16 8 16;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/* Text Area Styles */
+.text-area {
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.text-area:focused {
+    -fx-border-color: #3498db;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.3), 10, 0, 0, 0);
+}
+
+/* SplitPane Styles */
+.split-pane {
+    -fx-background-color: transparent;
+}
+
+.split-pane-divider {
+    -fx-background-color: #bdc3c7;
+}
+
+/* TabPane Styles */
+.tab-pane {
+    -fx-background-color: #ecf0f1;
+}
+
+.tab {
+    -fx-background-color: #bdc3c7;
+    -fx-background-radius: 5 5 0 0;
+}
+
+.tab:selected {
+    -fx-background-color: #3498db;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: white;
+}
+
+/* ToolBar Styles */
+.tool-bar {
+    -fx-background-color: linear-gradient(to bottom, #34495e, #2c3e50);
+}
+
+.tool-bar .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
