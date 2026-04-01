@@ -35,3 +35,8 @@ Clone this repo
 
 If you have any feedback, please reach out to us at tristan20us@gmail.com
 
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
